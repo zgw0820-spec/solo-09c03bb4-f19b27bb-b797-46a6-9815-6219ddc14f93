@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "feature_names": [
+    "vibration_mean",
+    "vibration_rms",
+    "vibration_peak",
+    "vibration_std",
+    "vibration_crest",
+    "vibration_kurtosis",
+    "current_mean",
+    "current_rms",
+    "current_peak",
+    "current_std",
+    "current_crest",
+    "current_kurtosis"
+  ],
+  "models": [
+    {
+      "id": "pump",
+      "name": "离心泵",
+      "device_type": "pump",
+      "file": "pump.json",
+      "version": "1.0.0",
+      "weights_bytes": 296
+    },
+    {
+      "id": "fan",
+      "name": "引风机",
+      "device_type": "fan",
+      "file": "fan.json",
+      "version": "1.0.0",
+      "weights_bytes": 296
+    },
+    {
+      "id": "compressor",
+      "name": "螺杆压缩机",
+      "device_type": "compressor",
+      "file": "compressor.json",
+      "version": "1.0.0",
+      "weights_bytes": 296
+    }
+  ]
+}
